@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 156" role="img" aria-label="粉色四叶草枕头">
+  <defs>
+    <linearGradient id="pillowPink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe1ee"/>
+      <stop offset="0.42" stop-color="#f7b7d1"/>
+      <stop offset="0.76" stop-color="#ef93b8"/>
+      <stop offset="1" stop-color="#de76a2"/>
+    </linearGradient>
+    <linearGradient id="pillowSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8fb" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#fff8fb" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="pillowShadow" x="-25%" y="-30%" width="150%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#8a3f61" flood-opacity=".24"/>
+    </filter>
+    <filter id="cloverGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#ffffff" flood-opacity=".8"/>
+    </filter>
+  </defs>
+  <g transform="rotate(-6 120 78)" filter="url(#pillowShadow)">
+    <path d="M31 36 C17 27 22 48 23 63 C18 89 25 112 43 120 C76 132 174 132 201 118 C217 109 215 86 211 69 C216 51 207 28 188 29 C155 21 67 24 31 36 Z"
+          fill="url(#pillowPink)" stroke="#d56f99" stroke-width="2.2"/>
+    <path d="M39 43 C72 31 165 30 197 39 C204 50 201 91 198 108 C169 119 78 120 39 110 C32 94 31 59 39 43 Z"
+          fill="url(#pillowSheen)" opacity=".58"/>
+    <path d="M35 55 C52 47 69 50 78 62 C61 72 46 75 31 70 C29 64 30 59 35 55 Z"
+          fill="#ffffff" opacity=".2"/>
+    <path d="M204 55 C187 47 171 51 162 63 C179 72 194 75 208 70 C211 64 210 59 204 55 Z"
+          fill="#ffffff" opacity=".16"/>
+    <path d="M45 108 C78 117 163 119 197 107" fill="none" stroke="#c8618c" stroke-width="2" stroke-linecap="round" opacity=".34"/>
+    <path d="M44 40 C75 29 166 28 196 39" fill="none" stroke="#fff7fb" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+    <g transform="translate(80 36) scale(.78)" filter="url(#cloverGlow)">
+      <g fill="#fbffff" stroke="#7bd9e8" stroke-width="3.4" stroke-linejoin="round">
+        <ellipse cx="35" cy="35" rx="22" ry="16" transform="rotate(45 35 35)"/>
+        <ellipse cx="65" cy="35" rx="22" ry="16" transform="rotate(-45 65 35)"/>
+        <ellipse cx="35" cy="65" rx="22" ry="16" transform="rotate(-45 35 65)"/>
+        <ellipse cx="65" cy="65" rx="22" ry="16" transform="rotate(45 65 65)"/>
+      </g>
+      <g fill="#e6a7c3" opacity=".92">
+        <ellipse cx="35" cy="35" rx="12.5" ry="7.5" transform="rotate(45 35 35)"/>
+        <ellipse cx="65" cy="35" rx="12.5" ry="7.5" transform="rotate(-45 65 35)"/>
+        <ellipse cx="35" cy="65" rx="12.5" ry="7.5" transform="rotate(-45 35 65)"/>
+        <ellipse cx="65" cy="65" rx="12.5" ry="7.5" transform="rotate(45 65 65)"/>
+      </g>
+      <circle cx="50" cy="50" r="5.2" fill="#ffffff" stroke="#7bd9e8" stroke-width="2.4"/>
+    </g>
+  </g>
+</svg>

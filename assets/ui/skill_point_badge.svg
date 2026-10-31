@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="红底白花战技点徽章">
+  <defs>
+    <radialGradient id="spBase" cx="34%" cy="27%" r="78%">
+      <stop offset="0" stop-color="#d95c5c"/>
+      <stop offset=".5" stop-color="#a92333"/>
+      <stop offset="1" stop-color="#570816"/>
+    </radialGradient>
+    <linearGradient id="spPetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffefa"/>
+      <stop offset=".62" stop-color="#fbf4e9"/>
+      <stop offset="1" stop-color="#e7d9c8"/>
+    </linearGradient>
+    <linearGradient id="spRedPetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e65a58"/>
+      <stop offset="1" stop-color="#981220"/>
+    </linearGradient>
+    <linearGradient id="spGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffeda8"/>
+      <stop offset=".45" stop-color="#d5a13b"/>
+      <stop offset="1" stop-color="#ffe49a"/>
+    </linearGradient>
+    <filter id="spShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.4" flood-color="#33040c" flood-opacity=".55"/>
+    </filter>
+    <path id="spCornerLeaf" d="M60 0 C51 8 46 18 48 29 C54 26 60 26 65 27 C66 15 64 6 60 0 Z"/>
+    <path id="spRimLeaf" d="M60 5.5 C55.8 10.5 55 16 60 22 C65 16 64.2 10.5 60 5.5 Z"/>
+  </defs>
+
+  <!-- 四角红金叶片点缀 -->
+  <g fill="#b72c39" stroke="#e9bd68" stroke-width="1.6" stroke-linejoin="round">
+    <use href="#spCornerLeaf" transform="rotate(45 60 60)"/>
+    <use href="#spCornerLeaf" transform="rotate(135 60 60)"/>
+    <use href="#spCornerLeaf" transform="rotate(225 60 60)"/>
+    <use href="#spCornerLeaf" transform="rotate(315 60 60)"/>
+  </g>
+
+  <!-- 红色圆盘与金边 -->
+  <circle cx="60" cy="60" r="56" fill="#3b0510" opacity=".6"/>
+  <circle cx="60" cy="60" r="54" fill="url(#spBase)" stroke="url(#spGold)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="49.5" fill="none" stroke="#f8d88c" stroke-width="1" opacity=".55"/>
+
+  <!-- 盘沿红金叶饰 -->
+  <g fill="#7c1220" stroke="#e7b75c" stroke-width="1.2" stroke-linejoin="round">
+    <use href="#spRimLeaf"/>
+    <use href="#spRimLeaf" transform="rotate(30 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(60 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(90 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(120 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(150 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(180 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(210 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(240 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(270 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(300 60 60)"/>
+    <use href="#spRimLeaf" transform="rotate(330 60 60)"/>
+  </g>
+
+  <!-- 金珠钉 -->
+  <g fill="#ffe3a0" stroke="#a66a22" stroke-width=".7">
+    <circle cx="60" cy="10.5" r="1.35"/>
+    <circle cx="84.75" cy="20.75" r="1.35"/>
+    <circle cx="99.5" cy="45.5" r="1.35"/>
+    <circle cx="99.5" cy="71.5" r="1.35"/>
+    <circle cx="84.75" cy="96.25" r="1.35"/>
+    <circle cx="60" cy="109.5" r="1.35"/>
+    <circle cx="35.25" cy="96.25" r="1.35"/>
+    <circle cx="20.5" cy="71.5" r="1.35"/>
+    <circle cx="20.5" cy="45.5" r="1.35"/>
+    <circle cx="35.25" cy="20.75" r="1.35"/>
+    <circle cx="72" cy="14" r="1.1"/>
+    <circle cx="106" cy="60" r="1.1"/>
+    <circle cx="48" cy="106" r="1.1"/>
+    <circle cx="14" cy="60" r="1.1"/>
+  </g>
+
+  <!-- 四向红金大叶点缀 -->
+  <g fill="#c63240" stroke="#f0c46c" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M60 12 C53 19 50 29 53 40 C57 37 63 37 67 40 C70 29 67 19 60 12 Z"/>
+    <path d="M60 12 C53 19 50 29 53 40 C57 37 63 37 67 40 C70 29 67 19 60 12 Z" transform="rotate(45 60 60)"/>
+    <path d="M60 12 C53 19 50 29 53 40 C57 37 63 37 67 40 C70 29 67 19 60 12 Z" transform="rotate(135 60 60)"/>
+    <path d="M60 12 C53 19 50 29 53 40 C57 37 63 37 67 40 C70 29 67 19 60 12 Z" transform="rotate(225 60 60)"/>
+    <path d="M60 12 C53 19 50 29 53 40 C57 37 63 37 67 40 C70 29 67 19 60 12 Z" transform="rotate(315 60 60)"/>
+  </g>
+  <g fill="none" stroke="#f7d58c" stroke-width=".8" opacity=".85" stroke-linecap="round">
+    <path d="M60 16 C58 24 58 32 60 38"/>
+    <path d="M60 16 C58 24 58 32 60 38" transform="rotate(45 60 60)"/>
+    <path d="M60 16 C58 24 58 32 60 38" transform="rotate(135 60 60)"/>
+    <path d="M60 16 C58 24 58 32 60 38" transform="rotate(225 60 60)"/>
+    <path d="M60 16 C58 24 58 32 60 38" transform="rotate(315 60 60)"/>
+  </g>
+
+  <!-- 白色五瓣花 -->
+  <g filter="url(#spShadow)">
+    <g fill="url(#spPetal)" stroke="#e7b75a" stroke-width="2.2" stroke-linejoin="round">
+      <path d="M60 59 C49 52 42 35 47 21 C50 13 57 11 60 17 C63 11 70 13 73 21 C78 35 71 52 60 59 Z"/>
+      <path d="M60 59 C49 52 42 35 47 21 C50 13 57 11 60 17 C63 11 70 13 73 21 C78 35 71 52 60 59 Z" transform="rotate(72 60 60)"/>
+      <path d="M60 59 C49 52 42 35 47 21 C50 13 57 11 60 17 C63 11 70 13 73 21 C78 35 71 52 60 59 Z" transform="rotate(144 60 60)"/>
+      <path d="M60 59 C49 52 42 35 47 21 C50 13 57 11 60 17 C63 11 70 13 73 21 C78 35 71 52 60 59 Z" transform="rotate(216 60 60)"/>
+      <path d="M60 59 C49 52 42 35 47 21 C50 13 57 11 60 17 C63 11 70 13 73 21 C78 35 71 52 60 59 Z" transform="rotate(288 60 60)"/>
+    </g>
+    <!-- 花瓣细纹 -->
+    <g fill="none" stroke="#e9dccb" stroke-width=".75" opacity=".7" stroke-linecap="round">
+      <path d="M58 53 C55 44 54 31 56 21"/>
+      <path d="M60 53 C59 43 59 29 60 19"/>
+      <path d="M62 53 C65 44 66 31 64 21"/>
+      <path d="M58 53 C55 44 54 31 56 21" transform="rotate(72 60 60)"/>
+      <path d="M60 53 C59 43 59 29 60 19" transform="rotate(72 60 60)"/>
+      <path d="M62 53 C65 44 66 31 64 21" transform="rotate(72 60 60)"/>
+      <path d="M58 53 C55 44 54 31 56 21" transform="rotate(144 60 60)"/>
+      <path d="M60 53 C59 43 59 29 60 19" transform="rotate(144 60 60)"/>
+      <path d="M62 53 C65 44 66 31 64 21" transform="rotate(144 60 60)"/>
+      <path d="M58 53 C55 44 54 31 56 21" transform="rotate(216 60 60)"/>
+      <path d="M60 53 C59 43 59 29 60 19" transform="rotate(216 60 60)"/>
+      <path d="M62 53 C65 44 66 31 64 21" transform="rotate(216 60 60)"/>
+      <path d="M58 53 C55 44 54 31 56 21" transform="rotate(288 60 60)"/>
+      <path d="M60 53 C59 43 59 29 60 19" transform="rotate(288 60 60)"/>
+      <path d="M62 53 C65 44 66 31 64 21" transform="rotate(288 60 60)"/>
+    </g>
+  </g>
+
+  <!-- 中央红色小花 -->
+  <g filter="url(#spShadow)">
+    <g fill="url(#spRedPetal)" stroke="#f3cc78" stroke-width="1.35" stroke-linejoin="round">
+      <path d="M60 59 C55 55 54 49 60 44 C66 49 65 55 60 59 Z"/>
+      <path d="M60 59 C55 55 54 49 60 44 C66 49 65 55 60 59 Z" transform="rotate(72 60 60)"/>
+      <path d="M60 59 C55 55 54 49 60 44 C66 49 65 55 60 59 Z" transform="rotate(144 60 60)"/>
+      <path d="M60 59 C55 55 54 49 60 44 C66 49 65 55 60 59 Z" transform="rotate(216 60 60)"/>
+      <path d="M60 59 C55 55 54 49 60 44 C66 49 65 55 60 59 Z" transform="rotate(288 60 60)"/>
+    </g>
+    <circle cx="60" cy="60" r="2.6" fill="#ffe4a0" stroke="#a51625" stroke-width=".9"/>
+  </g>
+</svg>
